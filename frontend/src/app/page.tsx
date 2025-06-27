@@ -44,29 +44,16 @@ export default function Home() {
     { label: "技術スタック", value: "6", icon: <Settings className="h-5 w-5" /> }
   ];
 
-  // ヘッダーのアクションボタン
-  const headerActions = (
-    <Button>
-      <Plus className="h-4 w-4 mr-2" />
-      新しいサービス
-    </Button>
-  );
-
   return (
     <MainLayout 
-      title="ホーム" 
-      subtitle="個人開発プラットフォームの概要"
-      headerActions={headerActions}
+      title="ホーム"
     >
       {/* Welcome Section */}
       <section className="mb-8">
         <div className="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-950/50 dark:to-purple-950/50 rounded-lg p-6 border">
           <h2 className="text-2xl font-bold mb-2 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-            Welcome to Personal Dev Platform
+            yskta's homepage
           </h2>
-          <p className="text-slate-600 dark:text-slate-300 mb-4">
-            技術検証とサービス開発のための統合プラットフォーム
-          </p>
         </div>
       </section>
 
@@ -147,21 +134,6 @@ export default function Home() {
             </Card>
           ))}
         </div>
-      </section>
-
-      {/* Quick Actions */}
-      <section className="mt-8">
-        <Card className="bg-slate-50 dark:bg-slate-800 border-dashed">
-          <CardContent className="pt-6">
-            <div className="text-center">
-              <h4 className="text-lg font-medium mb-2">新しいサービスを追加</h4>
-              <Button>
-                <Plus className="h-4 w-4 mr-2" />
-                サービスを追加
-              </Button>
-            </div>
-          </CardContent>
-        </Card>
       </section>
     </MainLayout>
   );
