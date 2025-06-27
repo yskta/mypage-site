@@ -38,12 +38,6 @@ export default function Home() {
     }
   ];
 
-  const stats = [
-    { label: "総プロジェクト数", value: "3", icon: <BarChart3 className="h-5 w-5" /> },
-    { label: "アクティブサービス", value: "1", icon: <Zap className="h-5 w-5" /> },
-    { label: "技術スタック", value: "6", icon: <Settings className="h-5 w-5" /> }
-  ];
-
   return (
     <MainLayout 
       title="ホーム"
@@ -57,38 +51,16 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="mb-8">
-        <h3 className="text-xl font-semibold mb-4">統計情報</h3>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {stats.map((stat, index) => (
-            <Card key={index}>
-              <CardContent className="pt-6">
-                <div className="flex items-center space-x-2">
-                  <div className="p-2 bg-blue-100 dark:bg-blue-900 rounded-lg">
-                    {stat.icon}
-                  </div>
-                  <div>
-                    <div className="text-2xl font-bold">{stat.value}</div>
-                    <div className="text-sm text-slate-600 dark:text-slate-400">{stat.label}</div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
-      </section>
-
       {/* Services Section */}
-      <section>
+      {/* <section>
         <div className="flex items-center justify-between mb-6">
           <h3 className="text-xl font-semibold">サービス一覧</h3>
           <span className="text-sm text-slate-500 dark:text-slate-400">
             {services.filter(s => s.enabled).length} / {services.length} アクティブ
           </span>
-        </div>
+        </div> */}
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, index) => (
             <Card key={index} className={`transition-all hover:shadow-lg ${!service.enabled ? 'opacity-60' : ''}`}>
               <CardHeader>
@@ -134,7 +106,7 @@ export default function Home() {
             </Card>
           ))}
         </div>
-      </section>
+      </section> */}
     </MainLayout>
   );
 }
