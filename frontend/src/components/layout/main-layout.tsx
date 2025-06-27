@@ -36,13 +36,13 @@ export function MainLayout({
         </main>
         
         {/* フッター */}
-        <footer className="border-t bg-white/50 dark:bg-slate-900/50 backdrop-blur-sm">
+        {/* <footer className="border-t bg-white/50 dark:bg-slate-900/50 backdrop-blur-sm">
           <div className="container mx-auto px-4 py-6 md:px-6">
             <div className="text-center text-sm text-slate-500 dark:text-slate-400">
               <p>&copy; 2025 Personal Development Platform. Built with Next.js & FastAPI.</p>
             </div>
           </div>
-        </footer>
+        </footer> */}
       </div>
     </div>
   );
