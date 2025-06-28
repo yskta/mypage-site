@@ -6,30 +6,6 @@ import {
 } from "lucide-react";
 
 export default function Home() {
-  const services = [
-    {
-      name: "Service 1",
-      description: "サンプルサービス1の説明",
-      status: "開発中",
-      icon: <Code className="h-6 w-6" />,
-      enabled: true
-    },
-    {
-      name: "Service 2", 
-      description: "サンプルサービス2の説明",
-      status: "計画中",
-      icon: <Database className="h-6 w-6" />,
-      enabled: false
-    },
-    {
-      name: "Service 3",
-      description: "サービス3の説明",
-      status: "計画中",
-      icon: <Globe className="h-6 w-6" />,
-      enabled: false
-    }
-  ];
-
   return (
     <MainLayout 
       title="ホーム"
