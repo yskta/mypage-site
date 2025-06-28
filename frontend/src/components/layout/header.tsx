@@ -1,24 +1,6 @@
 "use client";
 
 import { MobileSidebar } from "./sidebar";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-  DropdownMenuSeparator,
-} from "@/components/ui/dropdown-menu";
-import {
-  Bell,
-  User,
-  Settings,
-  LogOut,
-  Moon,
-  Sun,
-  Monitor
-} from "lucide-react";
 
 interface HeaderProps {
   title?: string;
