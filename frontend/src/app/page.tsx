@@ -1,9 +1,4 @@
 import { MainLayout } from "@/components/layout/main-layout";
-import { 
-  Code, 
-  Database, 
-  Globe, 
-} from "lucide-react";
 
 export default function Home() {
   return (
