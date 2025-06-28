@@ -47,7 +47,7 @@ const navigationItems = [
   {
     title: "Others",
     href: "/others",
-    icon: Folder
+    icon: Code
   }
 ];
 
