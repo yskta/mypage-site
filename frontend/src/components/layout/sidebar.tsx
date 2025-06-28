@@ -60,13 +60,13 @@ function SidebarContent({ onItemClick }: SidebarContentProps) {
 
   return (
     <div className="flex h-full flex-col">
-      {/* Logo/Profile */}
+      {/* Logo/Profile:サイドバー一番上*/}
       <div className="flex h-16 items-center border-b px-6">
         <Link href="/" className="flex items-center space-x-2" onClick={onItemClick}>
           <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
             <Code className="h-5 w-5 text-white" />
           </div>
-          {/* <span className="text-lg font-semibold">Portfolio</span> */}
+          <span className="text-lg font-semibold">gawafumi page</span>
         </Link>
       </div>
 
