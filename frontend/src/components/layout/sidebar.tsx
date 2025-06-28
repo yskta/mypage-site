@@ -13,13 +13,8 @@ import {
   Home,
   User,
   FileText,
-  ExternalLink,
   Menu,
   Folder,
-  Mail,
-  Github,
-  Linkedin,
-  Twitter
 } from "lucide-react";
 
 // メインナビゲーション

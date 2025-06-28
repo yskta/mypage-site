@@ -6,11 +6,6 @@ import {
   Code, 
   Database, 
   Globe, 
-  Plus,
-  ExternalLink,
-  BarChart3,
-  Zap,
-  Settings
 } from "lucide-react";
 
 export default function Home() {
