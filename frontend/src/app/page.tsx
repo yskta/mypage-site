@@ -9,7 +9,7 @@ export default function Home() {
       <section className="mb-8">
         <div className="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-950/50 dark:to-purple-950/50 rounded-lg p-6 border">
           <h2 className="text-2xl font-bold mb-2 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-            gawafumi's homepage
+            gawafumi homepage
           </h2>
         </div>
       </section>
